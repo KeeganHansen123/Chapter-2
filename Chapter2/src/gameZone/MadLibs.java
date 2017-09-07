@@ -31,15 +31,17 @@ public class MadLibs {
 		System.out.print("Enter a Plural Noun >>");
 		PluralNoun = input.nextLine();
 		
-		System.out.print("The" + color + "Dragon is the" + wordEst + "in the world."
-				+ "");
-		
-		c = a - b;
-		
 		System.out.print("Enter a number>> ");
 		a = input.nextInt();
 		System.out.print("Enter another number>> ");
 		b = input.nextInt();
+		c = a - b;
+		
+		System.out.print("The " + color + " Dragon is the " + wordEst + " Dragon of all."
+				+ "It has " + c + bodyPartPlural +", and a " + anAnimal + " shaped like a " + aNoun  
+				+ ". It loves to eat " + PluralNoun + ", although it will feast on nearly anything.");
+		
+		
 	}
 
 }
