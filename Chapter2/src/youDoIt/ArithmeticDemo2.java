@@ -2,23 +2,23 @@ package youDoIt;
 
 import java.util.Scanner;
 
-public class ArithmeticDemo {
+public class ArithmeticDemo2 {
 
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
-		int firstNumber;
-		int secondNumber;
-		int sum;
-		int difference;
-		int average;
+		double firstNumber;
+		double secondNumber;
+		double sum;
+		double difference;
+		double average;
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Please enter an integer >> ");
-		firstNumber = input.nextInt();
-		System.out.print("Please enter another integer >> ");
-		secondNumber = input.nextInt();
+		System.out.print("Please enter a double >> ");
+		firstNumber = input.nextDouble();
+		System.out.print("Please enter another double >> ");
+		secondNumber = input.nextDouble();
 		sum = firstNumber + secondNumber;
 		difference = firstNumber - secondNumber;
 		average = sum / 2;

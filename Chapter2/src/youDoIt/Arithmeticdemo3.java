@@ -2,7 +2,7 @@ package youDoIt;
 
 import java.util.Scanner;
 
-public class ArithmeticDemo {
+public class Arithmeticdemo3 {
 
 	public static void main(String[] args) 
 	{
@@ -11,7 +11,7 @@ public class ArithmeticDemo {
 		int secondNumber;
 		int sum;
 		int difference;
-		int average;
+		double average;
 		
 		Scanner input = new Scanner(System.in);
 		
@@ -21,7 +21,7 @@ public class ArithmeticDemo {
 		secondNumber = input.nextInt();
 		sum = firstNumber + secondNumber;
 		difference = firstNumber - secondNumber;
-		average = sum / 2;
+		average = (double) (sum / 2);
 		
 		System.out.println(firstNumber + " + " + 
 				 secondNumber + " is " + sum);
